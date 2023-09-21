@@ -1,0 +1,6 @@
+x <- matrix()
+if (is.matrix(x)){
+print('Is a Matrix')
+}else{
+print("Not a Matrix")
+}

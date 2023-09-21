@@ -1,0 +1,7 @@
+t=seq(0,10,0.1)
+y=sin(t)
+plot(t,y,type="l", xlab="time", ylab="Sine wave")
+
+
+library(ggplot2)
+qplot(t,y,geom="path", xlab="time", ylab="Sine wave")
